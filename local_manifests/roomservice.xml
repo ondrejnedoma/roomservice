@@ -2,7 +2,10 @@
     
     <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-21" />
     <project name="ItzDFPlayer/vendor_davinci-miuicamera" path="vendor/xiaomi/miuicamera" remote="gitlab" revision="leica-5.0-universal" />
-    <project name="muralivijay/kernel_xiaomi_sm6225" path="kernel/xiaomi/sm6225" remote="github" revision="main" />
+
+    <project name="GuidixX/ReDragon" path="kernel/xiaomi/sm6225" remote="github" revision="ice" />
+    <!-- Use Murali's kernel if you don't have access to the Dragon kernel from GuidiX -->
+    <!-- <project name="muralivijay/kernel_xiaomi_sm6225" path="kernel/xiaomi/sm6225" remote="github" revision="main" /> -->
     <project name="ondrejnedoma/android_device_xiaomi_spes" path="device/xiaomi/spes" remote="github" revision="14.0" />
     <project name="ondrejnedoma/android_vendor_xiaomi_spes" path="vendor/xiaomi/spes" remote="github" revision="14.0" />
 
